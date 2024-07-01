@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+
+
+
+:root{
+    font-family: "Alice", serif;
+    line-height: 150%;
+    color: #573A37
+}
+
+
+body {
+    background-image: url(https://media.discordapp.net/attachments/1235670602187014168/1257059404675813386/132_Sem_Titulo_20240630162138.jpg?ex=6683074d&is=6681b5cd&hm=3e9aa8263f0a4320874978876882429e6a2f72941fafc1feb15c5e44c9e158ad&=&format=webp&width=626&height=417);
+    background-size: cover;
+}
+
+#page {
+    box-sizing: border-box;
+    width: 800px;
+    padding: 24px;
+    background-color: #F0E8C2;
+    border-radius: 24px;
+    margin: 48px auto 28px;
+}
+
+
+img {
+    border-radius: 16px;
+    height: 500px;
+}
+
+main {
+    padding: 24px;
+
+}
+
+section + section {
+    margin-top: 24px;
+
+}
+
+
+#about p + p {
+ margin-top: 12px;
+}
+
+h1 {
+    line-height: 140%;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1, h2 {
+    color: #291B1A;
+    margin-bottom: 4px;
+    line-height: 150%;
+}
+
+ul {
+    padding-left: 24px;
+}
+
+footer {
+    color: #F0E8C2;
+    text-align: center;
+    padding-bottom: 48px;
+}
